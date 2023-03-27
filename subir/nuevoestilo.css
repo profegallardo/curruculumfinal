@@ -1,0 +1,251 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    max-width: 1300px;
+    margin: auto;
+  
+}
+#menu{
+    font-size:36px;
+    color: black;
+    position: fixed;
+    
+   
+}
+
+.inicio{
+
+    padding: 20px ;
+    background-color:  #e6e6e6;
+    height: auto;
+    position: relative;
+    
+   
+}
+.nav-barra {
+    position: fixed;
+    
+    background: black;
+    width: 200px;
+    padding: 10px;
+    display: none;
+ 
+    
+}
+
+
+#cerrar {
+    color: #fff;
+}
+.nav a {
+    color: #bab9b9;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    display: block;
+    
+  
+   
+    text-decoration: none;
+}
+.nav a:hover{
+    background: #CACFD2;
+    color: rgb(78, 61, 61);
+}
+
+
+.inicio .encabezado {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.inicio .encabezado h1 {
+
+    font-size: 5rem;
+    letter-spacing: 5px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 3px 4px 5px white;
+   
+
+
+}
+
+.inicio .encabezado h2{
+    font-weight: normal;
+    font-size: 2rem;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 2px white;
+   
+
+
+}
+
+.encabezado .foto {
+
+    max-width: 250px;
+    float: left;
+    position: absolute;
+    left: 42%;
+    bottom: -45%;
+    border-radius: 50%;
+    
+}
+.personal{
+    padding: 15px;
+    margin: auto;
+    
+    background: 
+    url(pie.webp);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+    .personal .presentacion {
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        padding-top: 130px;
+    }
+
+.personal .laborales {
+    padding: 130px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    
+  
+
+}
+
+
+
+.personal .perfil, .idiomas, .habilidades {
+    border-right: solid #CACFD2 ;
+    margin: 0.5em;
+    padding-right: 0.7em;
+    
+    color: #fff;
+    font-size: 20px;
+    }
+
+   
+
+    
+    
+#educacion-experiencia{
+        background-color: #e6e6e6;
+        padding: 140px 0 100px 0;
+        text-align: center;
+    }
+    .educacion-experiencia .contenido-seccion{
+        max-width: 1000px;
+        margin: auto;
+        padding: 0 10px;
+    }
+    .educacion-experiencia .contenido-seccion h3{
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    .educacion-experiencia .contenido-seccion .info{
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .educacion-experiencia .contenido-seccion .info .col{
+        width: 45%;
+    }
+    .educacion-experiencia .contenido-seccion .info .col .titulo{
+        display: inline-block;
+        font-weight: bold;
+        padding: 10px;
+    
+    }
+    .educacion-experiencia .contenido-seccion .info .col table{
+        margin-top: 30px;
+        border-collapse: collapse;
+    }
+    .educacion-experiencia .contenido-seccion .info .col table .datos{
+        width: 40%;
+        border-bottom: 1px solid #bab9b9;
+    }
+    .educacion-experiencia .contenido-seccion .info .col table h4{
+        margin-top: 10px;
+    }
+    .educacion-experiencia .contenido-seccion .info .col table h3{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .educacion-experiencia .contenido-seccion .info .col table p{
+        font-size: 14px;
+    }
+   
+    .educacion-experiencia .contenido-seccion .info .col table .descripcion{
+        border-left: 1px solid #bab9b9;
+        padding-left: 20px;
+    }
+
+    
+
+    .contacto {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+
+
+    @media screen and (max-width:800px){
+      
+        .inicio .nav{
+            position: relative;
+        }
+        
+      .contenido-seccion .cuerpo  .personal .laborales {
+            display: block;
+            text-align: center;
+        }
+        .nav-barra {
+            position: fixed;
+            
+            background: black;
+            width: 200px;
+            height: 100%;
+            padding: 10px;
+            display: block;
+        }
+
+
+        .cuerpo .personal .presentacion {
+            text-align: justify;
+        }
+
+        .personal .perfil, .idiomas, .habilidades{
+            border-right: none;
+            padding: 10px;
+            border-bottom: solid ;
+        }
+
+        .encabezado .foto{
+
+            max-width: 250px;
+            float: left;
+            position: absolute;
+            left: 35%;
+            bottom: -40%;
+            border-radius: 50%;
+
+        }
+
+        .inicio .nav {
+            position: fixed;}
+
+        
+    }
+    
